@@ -1,4 +1,5 @@
-const defaultTheme = require('tailwindcss/defaultTheme'); const config = {
+const defaultTheme = require('tailwindcss/defaultTheme');
+const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
@@ -9,10 +10,10 @@ const defaultTheme = require('tailwindcss/defaultTheme'); const config = {
 			grayBlue: 'hsl(233, 8%, 62%)',
 			lightGrayBlue: 'hsl(220, 16%, 96%)',
 			veryLightGray: 'hsl(0, 0%, 98%)',
-			white: 'hsl(0,0%,0%)'
+			white: 'hsl(0,0%,100%)'
 		},
 		fontFamily: {
-			'sans': ['Public Sans', ...defaultTheme.fontFamily.sans],
+			sans: ['Public Sans', ...defaultTheme.fontFamily.sans]
 		},
 		extend: {}
 	},
